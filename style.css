@@ -201,3 +201,8 @@ color:#ffffff;
 font-size: 11px;
 }
 
+#carouselExampleIndicators .carousel-item img {
+  height: 800px;
+  object-fit: cover;
+}
+
