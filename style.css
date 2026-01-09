@@ -197,3 +197,23 @@ font-size: 11px;
   object-fit: cover;
 }
 
+.about-hero-img{
+  display:block;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+}
+
+.accordion-button {
+  background-color: #F1F1F1;
+  color: #111111;
+  font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #F1F1F1;
+  color: #111111;
+  box-shadow: none;
+}
+
+
