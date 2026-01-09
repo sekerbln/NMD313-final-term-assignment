@@ -4,6 +4,77 @@ body {
   font-family: 'Noto Kufi Arabic', sans-serif;
 }
 
+
+.notice-bar {
+  background: #dce9f7;
+  color: #0b3a66;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.notice-inner {
+  padding: 28px 32px 32px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.notice-left {
+  display: flex;
+  gap: 18px;
+  max-width: 900px;
+}
+
+.notice-icon {
+  font-size: 26px;
+  margin-top: 6px;
+}
+
+
+.notice-text strong {
+  color: #0a2f55;
+  display: block;
+  font-size: clamp(26px, 3vw, 36px);
+  line-height: 1.15;
+  margin-bottom: 10px;
+}
+
+
+.notice-text {
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.notice-link {
+  color: #0b3a66;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.notice-close {
+  border: none;
+  background: none;
+  padding: 0;
+  margin-top: 6px;
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1;
+
+  color: #0b3a66;
+  cursor: pointer;
+
+  opacity: 0.7;
+}
+
+.notice-close:hover {
+  opacity: 1;
+}
+
+
+
 #top-bar {
   background-color: #000000;        
   color: #ffffff;                   
@@ -233,6 +304,39 @@ font-size: 11px;
 .nav-tabs .nav-link.active {
   background-color: #DCDDDD;
   border-color: #DCDDDD #DCDDDD transparent;
+}
+
+.swatch {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
+
+.swatch-primary {
+  background-color: #005FC4;
+}
+
+.swatch-black {
+  background-color: #0D0D0D;
+}
+.swatch-oasis {
+  background-color: #2E8B57;
+}
+
+.swatch-hajar {
+  background-color: #8A8A8A;
+}
+
+.swatch-punica {
+  background-color: #7A1E2D;
+}
+
+.swatch-coastal {
+  background-color: #4FA3C7;
+}
+
+.swatch-purple {
+  background-color: #5A3D8C;
 }
 
 
